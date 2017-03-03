@@ -17,7 +17,7 @@ This page provides links to the course materials and example solutions to the ex
 * Use Galaxy to load data from different sources
 * Employ different basic operations on genomic intervals
 * Practice building simple workflows
-* Solve exercises
+* Solve exercises using Galaxy
 
 ## Course materials
 
