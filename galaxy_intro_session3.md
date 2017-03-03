@@ -35,23 +35,23 @@ Retrieve all coding exons on human chromosome 22.
   - assembly: 'Feb. 2009 (GRCh37/hg19)';
   - group: 'Genes and Gene Predictions';
   - track: **'RefSeq Genes'**;
-  - table: 'refGene';
+  - table: 'knownGene';
   - region: select **'position'**; enter **'chr22'**
-  - output format: 'BED - browser extensible data';
+  - output format: **'BED - browser extensible data'**;
   - tick Send output to 'Galaxy'.
   - Make sure that your settings are exactly the same (in particular, region should be set to **'position' 'chr22'**, output format should be set to **'BED - browser extensible data'**, and **'Galaxy'** should be checked by Send output to option). Click **'get output'**.
-3. On next page make sure under Create one BED record per is set to **'Coding Exons' **and click **'Send Query to Galaxy'**.
-4. On the right hand side panel, in the history, once the newly created file "UCSC Main on Human knownGene (genome)" turns green, click the pencil **'Edit Attribute' **to change the file name to be '**UCSC_Human_refGene_chr22_Exons**', and click **'Save'**.
+3. On next page make sure under Create one BED record per is set to **'Coding Exons'** and click **'Send query to Galaxy'**.
+4. On the right hand side panel, in the history, once the newly created file "UCSC Main on Human knownGene (genome)" turns green, click the pencil **'Edit Attribute'** to change the file name to be **'UCSC_Human_refGene_chr22_Exons'**, and click **'Save'**.
 
-Examine the output bed file, it should contain 9,037 regions.
+Examine the output bed file, it should contain 12,410 regions.
 
 ## Retrieve data from BioMart Ensembl server
 
-Retrieve Ensembl genes 85 on human chromosome 22 from BioMart.
+Retrieve Ensembl genes 87 on human chromosome 22 from BioMart.
 
-**EXERCISE 3.1.** Retrieve all the genes (Ensembl Gene ID, Ensembl Transcript ID, start and end positions - if associated gene names selected it returns an error) on human chromosome 22 from Ensembl Genes 85 from BioMart Central server using database query mode.
+**EXERCISE 3.1.** Retrieve all the genes (Gene ID, Transcript ID, Gene Start and Gene End positions and Associated Gene Name) on human chromosome 22 from Ensembl Genes 87 from BioMart.
 
-*Hint*: Unfortunately the BioMart tool in the 'Get Data' section does not work, nevertheless it is still possible to extract the information from [http://www.ensembl.org/biomart](http://www.ensembl.org/biomart) into a file and import it into Galaxy. You should get a result file containing 4,473 genes.  
+*Hint*: Unfortunately the BioMart tool in the 'Get Data' section does not work, nevertheless it is still possible to extract the information from [http://www.ensembl.org/biomart](http://www.ensembl.org/biomart) into a file and import it into Galaxy. You should get a result file containing 4,473 genes. Rename the uploaded file **'BioMart_Homo_sapiens_genes_GRCh38p7_chr22'**
 
 ## Upload large files (>2GB) using FTP
 
@@ -70,6 +70,10 @@ Alternatively, you could import into your history all the data files from a shar
   - 4: UCSC_Human_refGene_chr22_exons
   - 3: TAF1_ChIP
   - 2: illumina_truseq_exome_targeted_regions_hg19_chr22
-  - 1: BioMart_Homo_sapiens_genes_GRCh38p3_chr22
+  - 1: BioMart_Homo_sapiens_genes_GRCh38p7_chr22
 
 Don't delete these files! They will be used in the next section.
+
+## Next session
+
+[Practical Session 4: Interval Operations](galaxy_intro_session4.md)
