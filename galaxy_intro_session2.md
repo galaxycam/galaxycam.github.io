@@ -14,7 +14,7 @@ We shall start by obtaining some data, inspecting it and running a simple job on
 
 2. In the list of Data Libraries you will see one called **'GalaxyCam Training'**. Click on this and you will see a couple of sub folders.
 
-3. Click on the folder **'getting_started'** and check the box next to **'Test.fasta'**. Click on top icon **'to History'** to import selected datasets into your history, select the history **'Unnamed history' **you wish to import the data into and click **'Import'**.** **
+3. Click on the folder **'getting_started'** and check the box next to **'Test.fasta'**. Click on top icon **'to History'** to import selected datasets into your history, select the history **'Unnamed history'** you wish to import the data into and click **'Import'**.
 
 4. A green box signaling that your task has been performed successfully will appear at the top right corner of your screen.
 
@@ -91,3 +91,7 @@ Our last task in this part of the tutorial will be to take two small datasets an
 3. **EXERCISE 2.1. Select only the NB-ARC sequences that are longer than 1300 nts and have a GC content over 0.5.** Take a look through the tools in Galaxy, try and figure out how to combine the information in both files and then filter for the information that you're interested in.
 
 *Hint*: You'll need to look at tools in the 'Join, Subtract and Group' section and also in the 'Filter and sort' section.
+
+## Next session
+
+[Practical Session 3: Loading data](galaxy_intro_session3.md)

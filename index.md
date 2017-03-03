@@ -23,9 +23,10 @@ This page provides links to the course materials and example solutions to the ex
 ## Course materials.
 
 * [Presentation](http://goo.gl/uUUYZa)
-* [Practical](http://tinyurl.com/GalaxyCamPractical)
+* Practical Sessions: [GalaxyCam Intro Practical LIVE (Google Doc)](http://tinyurl.com/GalaxyCamPractical)
   * [Practical Session 1: The Galaxy interface](galaxy_intro_session1.md)
   * [Practical Session 2: Getting started](galaxy_intro_session2.md)
+  * [Practical Session 3: Loading data](galaxy_intro_session3.md)
 * [Feedback](https://www.surveymonkey.co.uk/r/F3KYNPX)
 
 ## Galaxy cloud instances.
