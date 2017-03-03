@@ -1,10 +1,14 @@
+---
+title: Practical Session 1: The Galaxy interface
+---
+
 # Practical Session 1: The Galaxy interface
 
 Galaxy allows experimental biologists without any programming experience to easily manipulate sequencing data using a point and click interface. For this practical, all the necessary tools and software are pre-installed.
 
 ## Setting up your Galaxy account
 
-Go to [*group 1*] [http://52.207.211.93/](http://52.207.211.93/) or [*group 2*] [http://54.208.203.229/](http://54.208.203.229/)
+Go to [*group 1*] [http://52.55.43.141/](http://52.55.43.141/) or [*group 2*]
 
 Go to the **User** link at the top of Galaxy interface and choose **Register** (unless of course you already have an account). Then enter your information and you're in!
 

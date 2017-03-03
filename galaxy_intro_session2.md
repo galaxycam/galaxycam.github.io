@@ -1,3 +1,6 @@
+---
+title: Practical Session 2: Getting started
+---
 # Practical Session 2: Getting started
 
 ## Getting data
@@ -10,7 +13,7 @@
 
 We shall start by obtaining some data, inspecting it and running a simple job on it.
 
-1. Click on **'Shared Data' **from the menu and select **'Data Libraries'**.
+1. Click on **'Shared Data'** from the menu and select **'Data Libraries'**.
 
 2. In the list of Data Libraries you will see one called **'GalaxyCam Training'**. Click on this and you will see a couple of sub folders.
 
