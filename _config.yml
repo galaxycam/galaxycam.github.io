@@ -6,4 +6,3 @@ theme: jekyll-theme-slate
 
 gems:
   - jekyll-mentions
-  - jekyll-sitemap

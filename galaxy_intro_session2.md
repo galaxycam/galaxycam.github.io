@@ -1,6 +1,3 @@
----
-title: Practical Session 2: Getting started
----
 # Practical Session 2: Getting started
 
 ## Getting data

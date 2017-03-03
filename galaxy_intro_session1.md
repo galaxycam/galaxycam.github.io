@@ -1,7 +1,3 @@
----
-title: Practical Session 1: The Galaxy interface
----
-
 # Practical Session 1: The Galaxy interface
 
 Galaxy allows experimental biologists without any programming experience to easily manipulate sequencing data using a point and click interface. For this practical, all the necessary tools and software are pre-installed.
