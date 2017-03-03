@@ -1,22 +1,49 @@
-### Welcome to GitHub Pages.
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:
+## Welcome to the Galaxy course webpage.
 
-```
-$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-```
+This page provides links to the course materials and example solutions to the exercises for the "Introduction to Galaxy: data manipulation and visualisation" course run by the [Graduate School of Life Sciences](http://www.training.cam.ac.uk/gsls/), University of Cambridge.
 
-If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.
+![Powered by AWS Cloud Computing](http://awsmedia.s3.amazonaws.com/AWS_Logo_PoweredBy_127px.png)
+http://aws.amazon.com/what-is-cloud-computing
 
-### Designer Templates
-We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.
+## Course description.
 
-### Rather Drive Stick?
-If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
+**title**: Introduction to Galaxy: data manipulation and visualisation
 
-### Authors and Contributors
-You can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
+**description**: A Galaxy introduction course covering basic functions, simple data manipulation using use cases and examples and visualisation mostly targeted at first time users.
 
-### Support or Contact
-Having trouble with Pages? Check out the documentation at http://help.github.com/pages or contact support@github.com and we’ll help you sort it out.
+**format**: 2 sessions of 3 hours from 9:30 until 16:30
+
+**topics**:
+* The Galaxy interface
+* Getting started
+* Loading data
+* Operations on genomic intervals
+* Workflows
+* Data visualisation
+
+## Course materials.
+
+* [Presentation](http://goo.gl/uUUYZa)
+* [Practical](http://tinyurl.com/GalaxyCamPractical)
+* [Feedback](https://www.surveymonkey.co.uk/r/F3KYNPX)
+
+## Galaxy cloud instances.
+
+These cloud instances are only available during training session otherwise they are turned off. If you wish to use Galaxy again we recommend using [Galaxy main](https://usegalaxy.org/).
+
+* group 1: Go to http://52.207.211.93/
+* group 2: Go to http://54.208.203.229/
+
+If you wish to continue the practical session at your own speed, you are more than welcome to do so on the main Galaxy server at https://usegalaxy.org/. The data you were accessing during the course under the menu 'Shared Data' will not be visible but you can download it onto your computer, unzip it and load it into your history from our GitHub repository galaxy-intro, the course Data Libraries are in the ‘data_libraries’ folder.
+
+## Presenters.
+
+* Anne Pajon, CRUK Cambridge Institute. Email: Anne . Pajon @cruk.cam.ac.uk
+* Jing Su, CRUK Cambridge Institute. Email: Jing . Su @cruk.cam.ac.uk
+
+## Acknowledgements.
+
+* Graham Etherington, Sainsbury Laboratory Norwich - 'An Introduction to Galaxy'
+* Galaxy Team (aun1) - Galaxy Screencasts including Finding promoters containing TAF1 binding sites identified from a CHiP-seq experiment
+* Galaxy Team (aun1) - 'Galaxy 101'
+* Jeremy Goecks, George Washington University and Aysam Guerler, Johns Hopkins University - Visualization of NGS data
