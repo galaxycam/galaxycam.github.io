@@ -61,3 +61,7 @@ This menu appears across the top of the main panel. It contains a number of menu
 1. Click on **'Help'** from the top panel menu and select **'Interactive Tours'**
 2. Click on **'Galaxy UI'** for a gentle introduction to the Galaxy User Interface. This short tour will upload data into your history, and guide you through Galaxy's user interface.
 3. Name this history **'Interactive Tour'**.
+
+## Next session
+
+[Practical Session 2: Getting started](galaxy_intro_session2.md)
