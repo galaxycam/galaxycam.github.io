@@ -1,0 +1,8 @@
+title: Galaxycam.github.io
+description: Galaxy Course Website
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
