@@ -24,6 +24,7 @@ This page provides links to the course materials and example solutions to the ex
 
 * [Presentation](http://goo.gl/uUUYZa)
 * [Practical](http://tinyurl.com/GalaxyCamPractical)
+  * [Practical Session 1: The Galaxy interface](galaxy_intro_session1.md)
 * [Feedback](https://www.surveymonkey.co.uk/r/F3KYNPX)
 
 ## Galaxy cloud instances.
