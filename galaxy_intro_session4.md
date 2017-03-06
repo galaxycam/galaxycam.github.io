@@ -144,7 +144,7 @@ Examine the output bed file, it should contain 12,410 regions.
   - assembly: 'Feb. 2009 (GRCh37/hg19)';
   - group: **'Variation'**;
   - track: **'Common SNPs(147)'**;
-  - table: **'snp144Common'**;
+  - table: **'snp147Common'**;
   - region: position type **'chr22'**;
   - output format: **'BED - browser extensible data'**;
   - tick Send output to **'Galaxy'**.

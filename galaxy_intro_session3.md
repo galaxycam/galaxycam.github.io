@@ -33,9 +33,9 @@ Retrieve all coding exons on human chromosome 22.
 2. Select
   - genome: 'Human';
   - assembly: 'Feb. 2009 (GRCh37/hg19)';
-  - group: 'Genes and Gene Predictions';
+  - group: **'Genes and Gene Predictions'**;
   - track: **'RefSeq Genes'**;
-  - table: 'knownGene';
+  - table: 'refGene';
   - region: select **'position'**; enter **'chr22'**
   - output format: **'BED - browser extensible data'**;
   - tick Send output to 'Galaxy'.

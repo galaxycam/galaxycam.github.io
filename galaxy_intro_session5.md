@@ -33,13 +33,13 @@ Workflow can be run over and over again on any suitable datasets.
 
 ### Share the workflow.
 
-You could share the workflow. Go to the workflow view and select the workflow you would like to share. Click the dropdown menu and select **'Share or Publish'**. Same as sharing the histories, you can share your workflow either through a publicly accessible link e.g.  [http://52.207.211.93/u/pajanne/w/findingexonswithhighestsnpdensity](http://52.207.211.93/u/pajanne/w/findingexonswithhighestsnpdensity) [group 1] or [group 2] or with specific users.
+You could share the workflow. Go to the workflow view and select the workflow you would like to share. Click the dropdown menu and select **'Share or Publish'**. Same as sharing the histories, you can share your workflow either through a publicly accessible link or with specific users.
 
 ### Retrieve shared data.
 
-The workflow used in this section can be found in **'Shared Data' **> **'Workflows'**. It is called 'Finding_Exons_with_highest_SNP_density'**.**
+The workflow used in this section can be found in **'Shared Data' > 'Workflows'**. It is called **'Finding_Exons_with_highest_SNP_density'**.
 
-The history of this section can be found in **'Shared Data' **> **'Histories'**. It is called 'Run Exons with SNPs Density on chrX'.
+The history of this section can be found in **'Shared Data' > 'Histories'**. It is called **'Run Exons with SNPs Density on chrX'**.
 
 ## Create a new workflow
 
@@ -52,7 +52,7 @@ The history of this section can be found in **'Shared Data' **> **'Histories'**.
 5. In the right-hand column (where your history usually is) are the details and parameters associated with the tool. We will edit some of these parameters.
 6. Then, add the input dataset for this new workflow. On the left hand panel, at the top of all the tools, click **'Inputs'** and then **'Input dataset'** to select the input file for this workflow. A box entitled 'Input dataset' will appear on your canvas.
 7. To connect the Input dataset and the Compute tool, simply click the outward arrow of the dataset, hold and drag to the inward arrow symbol of the tool. A green arrow indicates the input dataset datatype is compatible with the function. You can remove the connection by mousing over the connection and clicking on the cross.
-8. Add next functions of this workflow in order: **'Filter and Sort' **> **'Sort'**, and **'Text manipulation' **> **'Select first'**. Now we have a workflow of three steps: Compute, Sort, and Select first. Connect the output file from each previous function to the next function as an input.  
+8. Add next functions of this workflow in order: **'Filter and Sort' > 'Sort'**, and **'Text manipulation' > 'Select first'**. Now we have a workflow of three steps: Compute, Sort, and Select first. Connect the output file from each previous function to the next function as an input.  
 9. Connect the output of the Compute tool with the input of the Sort tool; and the output of the Sort tool to the input of the Select first tool.
 10. Now we are going to adjust the parameters for each tools by clicking on each tool box.
 11. Click on the **'Compute'** tool, the input file has two columns that indicates the starts of an exon (c2) and its ends (c3). Therefore c3-c2 returns the length of that exon. In the right-hand column, under 'Add expression', you should have **'c3-c2'**. This will create a 7th column into the output dataset.
@@ -73,9 +73,9 @@ The history of this section can be found in **'Shared Data' **> **'Histories'**.
 
 ### Retrieve shared data.
 
-The workflow used in this section can be found in **'Shared Data' **> **'Workflows'**. It is called 'Select_50_longest_Exons'**.**
+The workflow used in this section can be found in **'Shared Data' > 'Workflows'**. It is called 'Select_50_longest_Exons'**.**
 
-The history of this section can be found in **'Shared Data' **> **'Histories'**. It is called 'Run Select 50 Longest Exons'.
+The history of this section can be found in **'Shared Data' > 'Histories'**. It is called 'Run Select 50 Longest Exons'.
 
 ## Importing a workflow
 
