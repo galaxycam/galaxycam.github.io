@@ -4,7 +4,7 @@ Galaxy allows experimental biologists without any programming experience to easi
 
 ## Setting up your Galaxy account
 
-Go to [*group 1*] [http://52.55.43.141/](http://52.55.43.141/) or [*group 2*]
+Go to [http://52.55.43.141/](http://52.55.43.141/) our Galaxy cloud instance for today's training.
 
 Go to the **User** link at the top of Galaxy interface and choose **Register** (unless of course you already have an account). Then enter your information and you're in!
 

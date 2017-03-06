@@ -36,8 +36,7 @@ This page provides links to the course materials and example solutions to the ex
 
 These cloud instances are only available during training session otherwise they are turned off. If you wish to use Galaxy again we recommend using [Galaxy main](https://usegalaxy.org/).
 
-* group 1: Go to [http://52.55.43.141/](http://52.55.43.141/)
-* group 2: Go to ...
+* Go to [http://52.55.43.141/](http://52.55.43.141/)
 
 If you wish to continue the practical session at your own speed, you are more than welcome to do so on the main Galaxy server at [https://usegalaxy.org/](https://usegalaxy.org/). The data you were accessing during the course under the menu 'Shared Data' will not be visible but you can download it onto your computer, unzip it and load it into your history from our GitHub repository galaxy-intro, the course Data Libraries are in the ‘data_libraries’ folder.
 
