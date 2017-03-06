@@ -26,14 +26,14 @@
 ### Load all coding exons on human chromosome 22 from shared library.
 
 1. Click on the menu **'Shared Data'** from the top panel, then **'Data Libraries'.**
-2. Click on** 'GalaxyCam Training' **and expend **'loading_data'**.
+2. Click on **'GalaxyCam Training'** then on **'loading_data'**.
 3. Check the box next to '**UCSC_Human_refGene_chr22_Exons'** and click on top icon **'to History'** to import selected datasets into your history.
 
 ### Practice basic interval operations.
 
 1. Click on **'Operate on Genomic Intervals' > 'Intersect'**.
 2. Select Return: 'Overlapping intervals' of '**UCSC_Human_refGene_chr22_Exons'** that intersect: '**UCSC_Human_rmsk_chr22**', for at least: '1' (bp). This operation will return the exons which overlap with repeats regions. Click **'Execute'**.
-3. Rename the returned file as: **'UCSC_Human_chr22_Intersect_on_Exons_Repeats'**, and click **'Save'**. You should see 280 regions.
+3. Rename the returned file as: **'UCSC_Human_chr22_Intersect_on_Exons_Repeats'**, and click **'Save'**. You should see 392 regions.
 4. Load **'UCSC_Human_chr22_Intersect_on_Exons_Repeats'** into UCSC browser.
 5. Zoom into individual intersect regions, e.g.:  chr22:22,293,855-22,294,135 and chr22:20,918,588-20,921,366, and compare the relationships between the intersect region as User Track with the exons and repeats regions.
 6. Repeat step 2 with alternative return option Overlapping pieces of Intervals, what changed in the intersection regions this time?
