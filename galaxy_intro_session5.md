@@ -4,9 +4,9 @@ The Galaxy workflow system allows users to create pipelines of analysis that the
 
 ## Create workflow from history
 
-One of the powerful functions of Galaxy is its ability to allow you to extract a workflow from the tasks you have completed and to re-apply the workflow to similar tasks repeatedly.
+One of the powerful functions of Galaxy is its ability to allow you to extract a workflow from the tasks you have completed and to re-apply the workflow on similar datasets repeatedly.
 
-1. In History panel, click **'Options'** > **'Saved Histories'**. Select the history which you would like to extract the workflow process from. In this case, let's select the task we completed earlier from the history named **'Exons with SNPs Density'**.
+1. In History panel, click **'Options'** > **'Saved Histories'**. Select the history which you would like to extract the workflow process from. In this case, let's select the tasks we completed earlier from the history named **'Exons with SNPs Density'**.
 2. Once the datasets of this history are all loaded and can be viewed from the History panel, click **'Options'** > **'Extract workflow'** to start the extraction process.
 3. Rename the workflow to **'Finding_Exons_with_highest_SNP_density'**.
 4. All the tools and history items used in your current history will appear in the main panel. It shows that the first steps of loading data from UCSC cannot be automated, and the output files from these steps need to be provided to the workflow. Following that, the steps which could be included are: Join, Group, Sort, Select first, and Compare two Datasets. Tick these functions by order to include them in the new workflow. If there are tools or datasets you don't want to use, uncheck them.
@@ -14,18 +14,18 @@ One of the powerful functions of Galaxy is its ability to allow you to extract a
 
 ### Modify the existing workflow.
 
-1. Click **'Workflow'** from the Menu to go to the workflow view, select the workflow **'Finding_Exons_with_highest_SNP_density' **to modify, and click on **'Edit'**.
+1. Click **'Workflow'** from the Menu to go to the workflow view, select the workflow **'Finding_Exons_with_highest_SNP_density'** to modify, and click on **'Edit'**.
 2. In the workflow view, each box represents either an input/output file or a function in the process. The arrows between the boxes represent the input and the output directions and the order of the process. The relationship between two boxes can be modified or removed by dragging and adding or deleting the arrows between the boxes.
-3. Select the function **'Select first' **to modify, in the right panel called Details, change the parameter 'Select first:' from '100' to **'10'** to have the top 10 records to be selected.
+3. Select the function **'Select first'** to modify, in the right panel called Details, change the parameter 'Select first:' from '100' to **'10'** to have the top 10 records to be selected.
 4. When finishing adjusting all the parameters of all the functions on the workflow canvas, do not forget to save it by clicking on the gear icon and select **'Save'**.
 
 ### Apply the workflow on a new dataset.
 
 Workflow can be run over and over again on any suitable datasets.
 
-1. Click on **'Analyze Data' **menu and create a new history called **'Run Exons with SNPs Density on chrX'**
-2. Download all Human coding exons of chrX instead of chr22, [following these steps done previously for chr22,](#heading=h.18uaj65a7fvg) and save it as **'UCSC_Human_refGene_chrX_Exons'** from UCSC.
-3. Download all Human SNP dataset of chrX, [following these steps done previously for chr22, ](#heading=h.vvvycopd9htp)and save it as '**UCSC_Human_chrX_SNPs**'.
+1. Click on **'Analyze Data'** menu and create a new history called **'Run Exons with SNPs Density on chrX'**
+2. Download all Human coding exons of chrX instead of chr22, [following these steps done previously for chr22](galaxy_intro_session3.md#Retrieve data from UCSC Main), and save it as **'UCSC_Human_refGene_chrX_Exons'** from UCSC.
+3. Download all Human SNP dataset of chrX, [following these steps done previously for chr22](galaxy_intro_session4.md#Retrieve all Human SNP data on chr22 from UCSC), and save it as '**UCSC_Human_chrX_SNPs**'.
 4. Click **'Workflow'** in the Menu, select the workflow **'Finding_Exons_with_highest_SNP_density'** to be run, click on the drop down menu and select **'Run'**.
 5. On the 'Running workflow' page select the input data files.
 6. Select for Step 1 Input dataset **'UCSC_Human_refGene_chrX_Exons'** and for Step 2 Input dataset '**UCSC_Human_chrX_SNPs**'. Then click **'Run workflow'**. All the steps will be sequentially executed without any further interventions needed.
