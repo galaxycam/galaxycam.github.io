@@ -6,7 +6,7 @@ As we have already experienced, we can visualise data using UCSC genome browser 
 
 ### Visualise in Trackster.
 
-1. Go to **'Shared Data' > 'Histories'**. Import in your history 'Promoters with TAF1'.
+1. Go to **'Shared Data' > 'Histories'**. Import in your history **'Promoters with TAF1'**.
 2. Click on data set **'TAF1_ChIP_chr11',** then **'Visualize'** chart icon and **'Trackster'**.
 3. Click **'View in new visualization'** and enter the name **'TAF1_ChIP_chr11_Vis'** and click on **'Create'** button.
 4. Select **'chr11'** from the drop down menu.

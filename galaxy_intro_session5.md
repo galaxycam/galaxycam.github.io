@@ -91,13 +91,16 @@ For example, **Galaxy Variant 101: Introduction to Polymorphism Detection via Va
 
 [https://usegalaxy.org/u/galaxyproject/p/galaxy-variant-101](https://usegalaxy.org/u/galaxyproject/p/galaxy-variant-101)
 
+Another example, **Galaxy 101 (2017)** is a very simple workflow to try to download:
+
+[https://usegalaxy.org/u/womy/w/galaxy-101-2017](https://usegalaxy.org/u/womy/w/galaxy-101-2017)
+
 Try to download the published workflow and view it.
 
-1. Go to the project page [https://usegalaxy.org/u/galaxyproject/p/galaxy-variant-101](https://usegalaxy.org/u/galaxyproject/p/galaxy-variant-101), and find **'Workflow'** section. Click on the **disk icon to save the workflow** file onto your computer and import it into another Galaxy instance, for example the one we are currently using for training today.
-2. To import an external workflow, click on 'Workflow' in the Galaxy training instance and then click on the blue arrow button **'Upload or import workflow'**. Click on **'Browse…'** button and select the file you've just downloaded from the main Galaxy instance called 'Galaxy-Workflow-Galaxy_Variant_101.ga', then click **'Import'***.
+1. Go to the workflow page [https://usegalaxy.org/u/womy/w/galaxy-101-2017](https://usegalaxy.org/u/womy/w/galaxy-101-2017). Click in the top right corner on the **disk icon to save the workflow** file onto your computer and import it into another Galaxy instance, for example the one we are currently using for training today.
+2. To import an external workflow, click on 'Workflow' in the Galaxy training instance and then click on the blue arrow button **'Upload or import workflow'**. Click on **'Browse…'** button and select the file you've just downloaded from the main Galaxy instance called 'Galaxy-Workflow-\_Galaxy\_101\_(2017)\_.ga', then click **'Import'***.
 3. When the import step completes, a message will show you the option to start using this workflow. Click **'Edit'** to view the graph of the entire workflow of this project. You can modify the parameters and apply this workflow to either the project dataset or your own dataset. Explore further options when you have the time.
 
-> ***** If this import failed, you may wish to try a much simpler workflow: [https://usegalaxy.org/u/aun1/w/galaxy101-2015-1](https://usegalaxy.org/u/aun1/w/galaxy101-2015-1)
 
 **EXERCISE 5.1.** Extract the genomic sequence of the 50 base pair region flanking each of the SNPs on human chromosome Y, and then package these steps into a reusable workflow.
 
