@@ -91,7 +91,7 @@ For example, **Galaxy Variant 101: Introduction to Polymorphism Detection via Va
 
 [https://usegalaxy.org/u/galaxyproject/p/galaxy-variant-101](https://usegalaxy.org/u/galaxyproject/p/galaxy-variant-101)
 
-which includes a workflow session.
+which includes a workflow section.
 
 Another example, **Galaxy 101 (2017)** is a very simple workflow found in the [list of published workflows in Galaxy](https://usegalaxy.org/workflow/list_published) which is accessible here:
 
