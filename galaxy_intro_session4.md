@@ -107,7 +107,7 @@ First, let's focus on chromosome 11 and extract only the TAF1 binding sites on c
 6. Click on the returned dataset to expend it. Then click **'Display at UCSC main'**.
 7. View the custom track file in the UCSC genome browser. Zoom into region **chr11:1,856,968-1,861,997** to check which gene's promoter region contain TAF1 sites.
 
-**EXERCISE 4.1**. Repeat above steps with Intersect function using **'Operate on Genomic Intervals' > 'Intersect'** and compare the difference between the outputs.
+**EXERCISE 4.1**. Repeat above steps for looking at overlapping pieces of intervals with the Intersect function using **'Operate on Genomic Intervals' > 'Intersect'** and compare the difference between the outputs.
 
 ### Retrieve shared data.
 
