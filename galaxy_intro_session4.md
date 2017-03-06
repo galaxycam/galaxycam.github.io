@@ -58,7 +58,7 @@ In the Loading Data section of this practical, we already obtained the genomic i
 
 1. From the new history, click on the gear icon 'History Options' and then **'Copy Datasets'**
 2. Select **'Loading Data from library'** as Source History and tick the box next to **'TAF1_ChIP'** and select **'Promoters with TAF1'** as Destination History. Click on **'Copy History Items'**.
-3. Then click on the Refresh history icon to see the dataset in your current history.
+3. Then click on the Refresh history icon to see the dataset in your current history if it does not appear automatically.
 
 First, let's focus on chromosome 11 and extract only the TAF1 binding sites on chromosome 11 from TAF1.
 
@@ -81,7 +81,7 @@ First, let's focus on chromosome 11 and extract only the TAF1 binding sites on c
   - Make sure that your settings are exactly the same (in particular, region should be set to **'position' 'chr11'**, output format should be set to **'BED - browser extensible data'**, and **'Galaxy'** should be checked by Send output to option). Click **'get output'**.
 3. On next page make sure under Create one BED record per is set to **'Whole Gene'** and click **'Send Query to Galaxy'**.
 4. On the right hand side panel, in the history, once the newly created file "UCSC Main on Human: refGene (chr11)" turns green, click the pencil **'Edit Attribute'** to change the file name to be '**UCSC_Human_RefGene_chr11**', and click **'Save'**.
-5. Examine the output bed file, it should contain 3,293 regions.
+5. Examine the output bed file, it should contain 3,473 regions.
 
 ### Retrieve 1000 bp upstream regions of each gene.
 
@@ -100,11 +100,11 @@ First, let's focus on chromosome 11 and extract only the TAF1 binding sites on c
 ### Examine these intervals in UCSC genome browser.
 
 1. Select in Tools **'Graph/Display Data' > 'Build custom track'**.
-2. Click **'Insert Track'**, select Track 1: **'TAF1_ChIP_chr11'**, name: **'TAF1'**, color: **'Blue'**,** **visibility: **'Full'**;
-3. Click **'Insert Track'**, select Track 2: '**UCSC_Human_RefGene_chr11_Promoters**'; name: **'Promoters'**; color: **'green'**,** **visibility: **'Full'**;
-4. Click **'Insert Track'**, select Track 3: **'Join_Promoters_TAF1s_chr11'**, name: **'Overlaps'**; color: **'Red'**,** **visibility: **'Full'**.
+2. Click **'Insert Track'**, select Track 1: **'TAF1_ChIP_chr11'**, name: **'TAF1'**, color: **'Blue'**, visibility: **'Full'**;
+3. Click **'Insert Track'**, select Track 2: '**UCSC_Human_RefGene_chr11_Promoters**'; name: **'Promoters'**; color: **'green'**, visibility: **'Full'**;
+4. Click **'Insert Track'**, select Track 3: **'Join_Promoters_TAF1s_chr11'**, name: **'Overlaps'**; color: **'Red'**, visibility: **'Full'**.
 5. Click **'Execute'**. This returns a Build Custom Track.
-6. Click on the returned dataset to expend it. Then click Display at UCSC main.
+6. Click on the returned dataset to expend it. Then click **'Display at UCSC main'**.
 7. View the custom track file in the UCSC genome browser. Zoom into region **chr11:1,856,968-1,861,997** to check which gene's promoter region contain TAF1 sites.
 
 **EXERCISE 4.1**. Repeat above steps with Intersect function using **'Operate on Genomic Intervals' > 'Intersect'** and compare the difference between the outputs.
