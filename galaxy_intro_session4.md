@@ -115,7 +115,7 @@ The history of this section can be found in **'Shared Data' > 'Histories'**. It 
 
 ## Finding coding exons with highest SNP density
 
-The goal here is to list all the exons on chromosome 22, sort them descendingly by the number of single nucleotide polymorphism they contain, and name the gene symbols associated with the top 100 exons in the list.
+The goal here is to list all the exons on chromosome 22, sort them in descending order by the number of single nucleotide polymorphism they contain, and name the gene symbols associated with the top 100 exons in the list.
 
 *Outline*:
 * Retrieve all Human coding exons on chr22 from UCSC.
@@ -132,9 +132,9 @@ The goal here is to list all the exons on chromosome 22, sort them descendingly 
 
 1. From the new history, click on the gear icon 'History Options' and then **'Copy Datasets'**
 2. Select **'Loading Data from library'** as Source History and tick the box next to '**UCSC_Human_refGene_chr22_Exons**' and select **'Exons with SNPs Density'** as Destination History. Click on **'Copy History Items'**.
-3. Then click on the Refresh history icon to see the dataset in your current history.
+3. If needed, click on the Refresh history icon to see the dataset in your current history.
 
-Examine the output bed file, it should contain 8,757 regions.
+Examine the output bed file, it should contain 12,410 regions.
 
 ### Retrieve all Human SNP data on chr22 from UCSC.
 
@@ -143,7 +143,7 @@ Examine the output bed file, it should contain 8,757 regions.
   - genome: 'Human';
   - assembly: 'Feb. 2009 (GRCh37/hg19)';
   - group: **'Variation'**;
-  - track: **'Common SNPs(144)'**;
+  - track: **'Common SNPs(147)'**;
   - table: **'snp144Common'**;
   - region: position type **'chr22'**;
   - output format: **'BED - browser extensible data'**;
@@ -157,7 +157,7 @@ Examine the output bed file, it should contain 8,757 regions.
 
 1. Go to **'Operate on Genomic Intervals' > 'Join'**
 2. Select Join: '**UCSC_Human_refGene_chr22_Exons**' with: '**UCSC_Human_chr22_SNPs**' with min overlap: '**1**', Return: **'Only records that are joined'**, and click **'Execute'**.
-3. Rename the returned file '**UCSC_Human_chr22_Exons_SNPs_join**'. It contains 4,577 regions.
+3. Rename the returned file '**UCSC_Human_chr22_Exons_SNPs_join**'. It contains 5,715 regions.
 
 ### Counting the number of SNPs per exon
 
@@ -167,7 +167,7 @@ Examine the output bed file, it should contain 8,757 regions.
 4. Then click on **'Insert Operation'**
 5. Operation 1 Type: **'Count'**, On column: **'Column: 4'**, and click **'Execute'**.
 6. Rename the result dataset to **'UCSC_Human_chr22_Exons_SNPs_join_count'** and click **'Save'**.
-7. The result dataset contains two columns and 2,619 lines. The first contains the exon name while the second shows the number of times this name has been repeated in the dataset '**UCSC_Human_chr22_Exons_SNPs_join**'.
+7. The result dataset contains two columns and 3,403 lines. The first contains the exon name while the second shows the number of times this name has been repeated in the dataset '**UCSC_Human_chr22_Exons_SNPs_join**'.
 
 ### Sorting Exons by SNPs counts
 
@@ -175,7 +175,7 @@ To see which exon has the highest number of SNPs we can simply sort the dataset 
 
 1. This is done with **'Filter and Sort' > 'Sort'** tool.
 2. Select Dataset: **'UCSC_Human_chr22_Exons_SNPs_join_count'**, on column **'Column: 2'**, with flavor 'Numerical sort', everything in: 'Descending order', the click on **'Execute'**
-3. You can now see that the highest number of SNPs per exon is 31.
+3. You can now see that the highest number of SNPs per exon is 35.
 4. Rename the dataset to **'UCSC_Human_chr22_Exons_SNPs_join_count_sort'**
 
 ### Selecting top one hundred
@@ -188,7 +188,7 @@ Now let's select top 100 exons with the highest number of SNPs.
 
 ### Recovering exon information and displaying data in genome browsers
 
-Now we know that in this dataset the top one hundred exons contain between 5 and 31 SNPs. But what else can we learn about these? To know more we need to get back the positional information (coordinates) of these exons. This information was lost at the grouping step and now all we have is just two columns.
+Now we know that in this dataset the top one hundred exons contain between 5 and 35 SNPs. But what else can we learn about these? To know more we need to get back the positional information (coordinates) of these exons. This information was lost at the grouping step and now all we have is just two columns.
 
 To get coordinates back we will match the names of exons in dataset '**UCSC_Human_chr22_Exons_SNPs_join_count_sort_top100'** (column 1) against names of the exons in the original dataset '**UCSC_Human_refGene_chr22_Exons**' (column 4).
 
