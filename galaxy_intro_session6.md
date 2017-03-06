@@ -50,6 +50,8 @@ The visualisations created in this section can be found in **'Shared Data' > 'Vi
 
 ### Heatmap of differentially expressed genes
 
+We are now going to visualize a Breast cancer dataset of 337 patients, for 75 most differentially-expressed genes.
+
 1. Create new history named **'Heatmap'**
 2. Get data from this URL: [https://raw.githubusercontent.com/galaxycam/galaxy-intro/master/data/heatmap.txt](https://raw.githubusercontent.com/galaxycam/galaxy-intro/master/data/heatmap.txt) and rename it to **'heatmap_data'** and convert it to **'tabular'** format
 3. Click on the dataset newly uploaded to expend it. Click on the Visualize chart icon, and select **'Charts'** to make a new chart.
@@ -83,6 +85,6 @@ Galaxy comes with a Scratchbook to help you visualise different plots at the sam
 
 Remember...
 
-- Our course webpage: http://galaxycam.github.io/
-- Galaxy main: https://usegalaxy.org/
+- Our course webpage: [http://galaxycam.github.io/](http://galaxycam.github.io/)
+- Galaxy main: [https://usegalaxy.org/](https://usegalaxy.org/)
 - To fill the course survey ;-)
