@@ -29,7 +29,8 @@ This page provides links to the course materials and example solutions to the ex
   * [Practical Session 4: Interval Operations](galaxy_intro_session4.md)
   * [Practical Session 5: Workflows](galaxy_intro_session5.md)
   * [Practical Session 6: Data visualisation](galaxy_intro_session6.md)
-* [Feedback](https://www.surveymonkey.co.uk/r/F3KYNPX)
+* Course survey:
+  * [http://tinyurl.com/galaxy-march17](http://tinyurl.com/galaxy-march17)
 
 ## Galaxy cloud instances
 
