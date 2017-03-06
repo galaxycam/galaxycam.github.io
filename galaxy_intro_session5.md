@@ -24,8 +24,8 @@ One of the powerful functions of Galaxy is its ability to allow you to extract a
 Workflow can be run over and over again on any suitable datasets.
 
 1. Click on **'Analyze Data'** menu and create a new history called **'Run Exons with SNPs Density on chrX'**
-2. Download all Human coding exons of chrX instead of chr22, [following these steps done previously for chr22](galaxy_intro_session3.md#Retrieve data from UCSC Main), and save it as **'UCSC_Human_refGene_chrX_Exons'** from UCSC.
-3. Download all Human SNP dataset of chrX, [following these steps done previously for chr22](galaxy_intro_session4.md#Retrieve all Human SNP data on chr22 from UCSC), and save it as '**UCSC_Human_chrX_SNPs**'.
+2. Download all Human coding exons of chrX instead of chr22, [following these steps done previously for chr22](galaxy_intro_session3.md#retrieve-data-from-ucsc-main), and save it as **'UCSC_Human_refGene_chrX_Exons'** from UCSC.
+3. Download all Human SNP dataset of chrX, [following these steps done previously for chr22](galaxy_intro_session4.md#retrieve-all-human-snp-data-on-chr22-from-ucsc), and save it as '**UCSC_Human_chrX_SNPs**'.
 4. Click **'Workflow'** in the Menu, select the workflow **'Finding_Exons_with_highest_SNP_density'** to be run, click on the drop down menu and select **'Run'**.
 5. On the 'Running workflow' page select the input data files.
 6. Select for Step 1 Input dataset **'UCSC_Human_refGene_chrX_Exons'** and for Step 2 Input dataset '**UCSC_Human_chrX_SNPs**'. Then click **'Run workflow'**. All the steps will be sequentially executed without any further interventions needed.
