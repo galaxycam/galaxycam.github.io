@@ -45,7 +45,7 @@ The history of this section can be found in **'Shared Data' > 'Histories'**. It 
 
 ### Select 50 longest exons from a list of exons.
 
-1. Go to the workflow view, click **'Create new workflow' **button, name it **'Select_50_longest_Exons'** and click **'create'**. This will take you to a blank workflow canvas, where we will create our workflow.
+1. Go to the workflow view, click **'Create new workflow'** button, name it **'Select_50_longest_Exons'** and click **'create'**. This will take you to a blank workflow canvas, where we will create our workflow.
 2. To get your first tool onto the canvas just click on it, so go to the tool section **'Text Manipulation'** and click on the tool **'Compute'** to calculate the length of exons.
 3. A box entitled 'Compute' will appear on your canvas. The box should be surrounded in blue, which means that it's the currently selected box.
 4. Put your cursor over the top part of the box and you should notice that it changes from a pointer to a cross. Click on the box and drag it to the top left corner of the canvas. You'll also notice that the box has a cross on it in the top right corner. Clicking on the cross will remove the tool from the canvas.
@@ -66,7 +66,7 @@ The history of this section can be found in **'Shared Data' > 'Histories'**. It 
 
 1. Go to **'Analyze Data'**
 2. Create a new history called **'Run Select 50 Longest Exons'**
-3. Retrieve all Human coding exons of chr22 from data library 'GalaxyCam Training' > 'loading_data', called '**UCSC_Human_refGene_chr22_Exons'**.
+3. Retrieve all Human coding exons of chr22 from data library **'GalaxyCam Training' > 'loading_data'**, called '**UCSC_Human_refGene_chr22_Exons'**.
 4. Go to the workflow view, select the workflow you've just created called **'Select_50_longest_Exons'**, click on the drop down menu and select **'Run'**.
 5. Select '**UCSC_Human_refGene_chr22_Exons'** as the input dataset, then click on **'Run workflow'.**
 6. When all the jobs have finished, click on the last dataset in your history to see the result file. Examine the output, the last column shows the exon length by descending order.
