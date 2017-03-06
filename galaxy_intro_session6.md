@@ -87,4 +87,4 @@ Remember...
 
 - Our course webpage: [http://galaxycam.github.io/](http://galaxycam.github.io/)
 - Galaxy main: [https://usegalaxy.org/](https://usegalaxy.org/)
-- To fill the course survey ;-)
+- To fill the course survey ;-) [http://tinyurl.com/galaxy-march17](http://tinyurl.com/galaxy-march17)
