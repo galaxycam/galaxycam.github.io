@@ -21,56 +21,68 @@ The visualisation created in this section can be found in **'Shared Data' > 'Vis
 
 ## Numerical visualisation
 
-Tabular results can be visualised with Galaxy using Charts.  We will be looking at functional interaction scores between proteins.
+Tabular results can be visualised with Galaxy using Charts plugin.  We will be looking at a [Gapminder](https://www.gapminder.org/) dataset as well as differentially expressed genes for breast cancer.
 
-### Unclustered Heatmap
+### Scatter plot with Gapminder dataset
 
-1. Create new history named **'Charts'**
-2. Get data from this URL: [http://www.compsysbio.org/bacteriome/dataset/functional_interactions.txt](http://www.compsysbio.org/bacteriome/dataset/functional_interactions.txt)
+From the famous YouTube presentation on *'The best stats you've ever seen'* by Hans Rosling, we are going to plot GDP against life expectancy for all the countries in the given dataset for 2002.
+
+1. Create new history named **'Gapminder'**
+2. Get data from this URL: [https://raw.githubusercontent.com/galaxycam/galaxy-intro/master/data/gapminder.txt](https://raw.githubusercontent.com/galaxycam/galaxy-intro/master/data/gapminder.txt)
+3. Filter only 2002 data using **Filter and Sort > Filter** tool and rename the result to **'gapminder_2002'**
+4. Click on the dataset newly created to expend it. Click on the Visualize chart icon, and select **'Charts'** to make a new chart.
+5. Provide a title **'Gapminder 2002'**
+6. Click on **'Scatter plot'** type
+7. Click on **'Select data'** tab, and fill the forms with label and columns:
+  - Provide a label: **country (2002)**
+  - Data point labels: **Column: 1 (country)**
+  - Values for x-axis: **Column: 6 (GDP)**
+  - Values for y-axis: **Column: 4 (lifeExp)**
+8. Click on **'Customize'** tab to set X-Axis and Y-Axis labels, X-Axis should be set to 'GDP' and Y to 'lifeExp'.
+9. Click on **'Visualize'** in the top right corner.
+
+**EXERCISE 6.1.** Do the same plot for 1952 data. Join these two datasets from 2002 and 1952 to draw a scatter plot for these two different years on one panel only.
+
+#### Retrieve shared data.
+
+The visualisations created in this section can be found in **'Shared Data' > 'Visualizations'**. They are called **'Gapminder 2002'**, **'Gapminder 1952'**, and **'Gapminder 1952vs2002'**.
+
+
+### Heatmap of differentially expressed genes
+
+1. Create new history named **'Heatmap'**
+2. Get data from this URL: [https://raw.githubusercontent.com/galaxycam/galaxy-intro/master/data/heatmap.txt](https://raw.githubusercontent.com/galaxycam/galaxy-intro/master/data/heatmap.txt) and rename it to **'heatmap_data'** and convert it to **'tabular'** format
 3. Click on the dataset newly uploaded to expend it. Click on the Visualize chart icon, and select **'Charts'** to make a new chart.
-4. Give it a name **'Unclustered Heatmap'**
-5. Double click on **'Heatmap'** type
-6. Choose Column: 1 for Column labels; Column: 2 for Row labels; and Column: 3 for Observation.
-7. Click on **'Draw'** in the right corner.
+4. Provide a title **'Heatmap'**
+5. Click on **'Clustered heatmap'** type
+6. Click on **'Select data'** tab, and fill the forms with label and columns:
+  - Provide a label: **Heatmap of differentially expressed genes**
+  - Column labels: **Column: 2 (sample)**
+  - Row labels: **Column: 1 (gene)**
+  - Observation: **Column: 3 (value)**
+7. Click on **'Customize'** tab to set X-Axis and Y-Axis labels, X-Axis should be set to 'samples' and Y to 'genes'.
+8. Click on **'Visualize'** in the top right corner.
 
-To retrieve your graphs, you can go to the top menu **'Visualization'** > **'Saved Visualizations'**, 'Unclustered Heatmap' should be listed**.**
+To retrieve your graphs, you can go to the top menu **'Visualization'** > **'Saved Visualizations'**, **'Heatmap'** should be listed.
 
-### Clustered Heatmap
+#### Retrieve shared data.
 
-1. Make a new chart from the same dataset called [http://www.compsysbio.org/bacteriome/dataset/functional_interactions.txt](http://www.compsysbio.org/bacteriome/dataset/functional_interactions.txt)
-2. Give it the name **'Clustered Heatmap'**
-3. Double click on **'Clustered Heatmap'** type
-4. Choose Column: 1 for Column labels; Column: 2 for Row labels; and Column: 3 for Observation
-5. Click **'Draw'**
-6. Use the mouse	wheel or your touchpad to zoom into	the bottom left hand side of the graph as shown below
-7. Tooltips pop up if you move the mouse pointer over a box. Find the interaction between B4143 and B3295, you should be able to see it associated value of 0.271021.
-8. Click on the **Editor** icon in the right corner to further customize this chart.
-9. Go to the **Configuration** tab.
-10. Paste a database URL into the template URL field and add the __LABEL__ tag. You may	use [http://www.ncbi.nlm.nih.gov/geoprofiles/?term=__LABEL__](http://www.ncbi.nlm.nih.gov/geoprofiles/?term=__LABEL__) or any other database. Click on **'Draw'** to redraw the chart. Data points are now linked to web sources.
-11. Double click on a box and the browser will open two	new tabs using the previously defined URL template.
-12. Select one element, find the interaction between B4143 and B3295 again. What are the corresponding protein functions?
+The visualisations created in this section can be found in **'Shared Data' > 'Visualizations'**. They are called **'Heatmap'**.
 
-### Analyze the protein distribution with a discrete histogram
+## Scratchbook
 
-1. Make a new chart from the same dataset called [http://www.compsysbio.org/bacteriome/dataset/functional_interactions.txt](http://www.compsysbio.org/bacteriome/dataset/functional_interactions.txt)
-2. Give it a name **'Discrete Histogram'**
-3. Double click on **'Discrete Histogram'** type
-4. Choose Column: 1 for Observations
-5. Click **'Add Data'**, select Column: 2 for Observations
-6. Click on **'Draw'**
-7. Which proteins have most interactions?
-  - B4143 Chaperon ([http://www.ncbi.nlm.nih.gov/geoprofiles/?term=B4143](http://www.ncbi.nlm.nih.gov/geoprofiles/?term=B4143))
-  - B3295 RNA Polymerase ([http://www.ncbi.nlm.nih.gov/geoprofiles/?term=B3295](http://www.ncbi.nlm.nih.gov/geoprofiles/?term=B3295))
-8. Click on **Screenshot** and select **'Save as PNG'** to save the chart onto your desktop as a PNG file.
+Galaxy comes with a Scratchbook to help you visualise different plots at the same time. You can try add both Gapminder plots next to each other for 152 and 2002 using this functionality.
 
-### Retrieve shared data.
-
-The visualisations created in these sections can be found in **'Shared Data' > 'Visualizations'**. They are called 'Unclustered Heatmap', 'Clustered Heatmap', and 'Discrete Histogram'.
-
-### Scratchbook
-
-1. Click on **'Analyze Data'**, then on the top right corner, click on the square icon near the percentage usage bar. When the scratchbook is activated, the icon should be yellow.
+1. Click on **'Analyze Data'**, then on the square icon near the 'User' menu. When the scratchbook is activated, the icon should be yellow.
 2. Click on **'Visualization' > 'Saved Visualizations'**
 3. Select a visualization and repeat the process by selecting **'Visualization' > 'Saved Visualizations'** and select one again
 4. Resize all visualizations so they fit into the screen
 5. To show/hide scratchbook, click on the new eye icon on the top right corner.
+
+## Congratulation! You reached the end!
+
+Remember...
+
+- Our course webpage: http://galaxycam.github.io/
+- Galaxy main: https://usegalaxy.org/
+- To fill the course survey ;-)
