@@ -8,9 +8,9 @@ Go to [http://52.55.43.141/](http://52.55.43.141/) our Galaxy cloud instance for
 
 Go to the **User** link at the top of Galaxy interface and choose **Register** (unless of course you already have an account). Then enter your information and you're in!
 
-This will allow all the work that you create to be saved between sessions and allow you to name, save, share, and publish Galaxy histories, workflows, datasets and pages in a limited space set by your administrator of usually of 250GB.
+This will allow all the work that you create to be saved between sessions and allow you to name, save, share, and publish Galaxy histories, workflows, datasets and pages in a limited space set by your administrator of 40GB today.
 
-The little indication bar at the top right corner of your Galaxy page **'Using ...MB'** will show your current usage. If you exceed your quota, no further jobs will be run until you have (permanently) deleted some of your datasets.
+The little indication bar at the top right corner of your Galaxy page **'Using ...%'** will show your current usage. If you exceed your quota, no further jobs will be run until you have (permanently) deleted some of your datasets.
 
 ## The Galaxy UI
 
