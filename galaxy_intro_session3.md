@@ -43,7 +43,9 @@ Retrieve all coding exons on human chromosome 22.
 3. On next page make sure under Create one BED record per is set to **'Coding Exons'** and click **'Send query to Galaxy'**.
 4. On the right hand side panel, in the history, once the newly created file "UCSC Main on Human knownGene (genome)" turns green, click the pencil **'Edit Attribute'** to change the file name to be **'UCSC_Human_refGene_chr22_Exons'**, and click **'Save'**.
 
-Examine the output bed file, it should contain 12,410 regions.
+Examine the output bed file, it should contain 9,141 regions.
+
+*Note:* The bed file 'UCSC_Human_refGene_chr22_Exons' in the shared history has 12,410 regions because it has been uploaded with track set to 'UCSC Genes' instead of 'RefSeq Genes' and table 'knownGene'.
 
 ## Retrieve data from BioMart Ensembl server
 
